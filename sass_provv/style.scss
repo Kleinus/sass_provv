@@ -1,0 +1,35 @@
+$backgroundcolor:rgb(0, 255, 72);
+$color:blue;
+$pcolor:rgb(0, 0, 0);
+
+body {
+    background-color: $backgroundcolor;
+}
+
+p {
+    color: $pcolor;
+}
+
+@mixin border($border) {
+    border-radius: $border;
+}
+
+button {
+    @include border(10px);
+}
+
+
+#comp {
+    color: complement($color: $backgroundcolor);
+}
+
+
+@mixin colorchanger($color,$c) {
+    color: $color;
+    background-color: $c;
+}
+
+#heading {
+    @include colorchanger(rgb(255, 0, 0),rgb(255, 0, 208) )
+}
+

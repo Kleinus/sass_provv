@@ -1,0 +1,20 @@
+body {
+  background-color: rgb(0, 255, 72);
+}
+
+p {
+  color: rgb(0, 0, 0);
+}
+
+button {
+  border-radius: 10px;
+}
+
+#comp {
+  color: #ff00b7;
+}
+
+#heading {
+  color: rgb(255, 0, 0);
+  background-color: rgb(255, 0, 208);
+}/*# sourceMappingURL=style.css.map */
